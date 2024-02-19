@@ -23,7 +23,6 @@ function App() {
   }, []) // cuando el componente se monta, es decir cuando se renderiza por primera vez y solo se ejecuta una vez */
 
   useEffect(() => {
-    console.log('desde app 2222222', pacientes)
     localStorage.setItem('pacientes', JSON.stringify(pacientes))
   }, [pacientes])
 
