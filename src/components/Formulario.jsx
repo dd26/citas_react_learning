@@ -69,7 +69,6 @@ const Formulario = ({
         // nuevo registro
         objPaciente.id = generarId()
         setPacientes([...pacientes, objPaciente])
-        console.log('Agregado', objPaciente)
       }
 
 
